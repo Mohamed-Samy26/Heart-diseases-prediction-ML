@@ -1,5 +1,23 @@
 # Heart diseases prediction using Machine learning
 
+
+## Machine Learning approach:
+-	To make good use of our dataset we decided to train 3 different machine learning models such that each model depends on different algorithms than the others.
+-	Before being able to train the models, dataset had to be prepared first by removing duplicates, null or missing values, outliers and using dummies for categorial data (like chestPainType)
+-	All models were trained using a part of the data set and tested using the other part
+<br>	
+--	The first model was trained using multiple linear regression, it had poor accuracy of only 55%
+<br>	
+
+--	Second model was trained using decision tree, and it was a great leap forward as the accuracy has improved to about 80% to 85%, depending on the random portion of dataset used during the training.
+<br>	
+--	Third model was trained using K-Nearest-Neighbors (KNN) algorithm and had accuracy of 85%
+<br>	
+-	“scikit-learn” library from “Conda” environment with python 3.9 was used to train the models and “joblib” to save them as binaries for later use
+-	 A Jupyter notebook was used to divide code into cells to be easy for reading and documenting along the whole study 
+-	To test for an observation, the required attributes need to be passed in form of (.CSV) file to the model
+-	Each model produces output of:
+either (1: “have heart disease”) or (0: “Doesn’t have heart disease”)
  
 ## Introduction:
 	
@@ -163,15 +181,4 @@ the slope of the peak exercise ST segment
 -	don't make exercise angina proportion estimate = 41.0%
 <br>
 
-## Machine Learning approach:
--	To make good use of our dataset we decided to train 3 different machine learning models such that each model depends on different algorithms than the others.
--	Before being able to train the models, dataset had to be prepared first by removing duplicates, null or missing values, outliers and using dummies for categorial data (like chestPainType)
--	All models were trained using a part of the data set and tested using the other part
---	The first model was trained using multiple linear regression, it had poor accuracy of only 55%
---	Second model was trained using decision tree, and it was a great leap forward as the accuracy has improved to about 80% to 85%, depending on the random portion of dataset used during the training.
---	Third model was trained using K-Nearest-Neighbors (KNN) algorithm and had accuracy of 85%
--	“scikit-learn” library from “Conda” environment with python 3.9 was used to train the models and “joblib” to save them as binaries for later use
--	 A Jupyter notebook was used to divide code into cells to be easy for reading and documenting along the whole study 
--	To test for an observation, the required attributes need to be passed in form of (.CSV) file to the model
--	Each model produces output of:
-either (1: “have heart disease”) or (0: “Doesn’t have heart disease”)
+
