@@ -87,15 +87,15 @@ By studying and analyzing this data, The following results were deduced:
 -	18.8% had Atypical Angina (ATA)
 -	5% Typical Angina (TA)
 <br>
- 
+
 ### RestingBP:
 -	Mean of RestingBP: 132.39651416122004 
 -	Median of RestingBP: 130.0 
 -	Mode of RestingBP: 120 repeated 132 times
 -	Variance of RestingBP: 342.7739 
 -	Standard deviation of RestingBP: 18.5141
-<br>
 
+<br>
 
 ### Cholesterol:
 -	Mean of Cholesterol is 244.62875816993574
@@ -114,11 +114,13 @@ By studying and analyzing this data, The following results were deduced:
 -	76.7% of observations had fasting blood sugar greater than 120 mg/dl
 -	23.3% of observations had fasting blood sugar less than 120 mg/dl
 <br>
+
 ### RestingECG:
 -	60.13% of observation are Normal
 -	19.39% of observation having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
 -	20.48% LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria
 <br>
+
 ### MaxHR:
 -	Mean: 136.8093
 -	Median: 138
@@ -135,7 +137,6 @@ By studying and analyzing this data, The following results were deduced:
 Distribution is normal, Skewness: -0.1443    
 Slightly skewed to the left
 <br>
-
 ### ExerciseAngina:
 -	59.59% of observation didn’t have Exercise Angina
 -	40.41% of observation had Exercise Angina
@@ -162,7 +163,6 @@ the slope of the peak exercise ST segment
 -	44.66% of the observations didn’t have heart disease
 -	55.34% of the observations had heart disease
 <br>
- 
 ## Correlation of 2D data:
 
 -	The confidence interval using critical-z for Cholesterol = [234.9915, 255.8804]
