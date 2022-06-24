@@ -152,17 +152,23 @@ Slightly skewed to the left
 -	Minimum Value = -2.6
 -	Maximum Value = 6.2
 -	IQR of Oldpeak is 1.5
+
 <br>
+
 ### ST_Slope:
 the slope of the peak exercise ST segment
 -	50.11% have FLAT slope
 -	43.03% have an UP slope
 -	6.86% have a DOWN slope
+
 <br>
+
 ### HeartDisease:
 -	44.66% of the observations didn’t have heart disease
 -	55.34% of the observations had heart disease
+
 <br>
+
 ## Correlation of 2D data:
 
 -	The confidence interval using critical-z for Cholesterol = [234.9915, 255.8804]
@@ -179,6 +185,7 @@ the slope of the peak exercise ST segment
 -	Haven't heart disease proportion estimate = 53.0%
 -	don't make exercise angina proportion estimate = 59.0%
 -	don't make exercise angina proportion estimate = 41.0%
+
 <br>
 
 
